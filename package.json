@@ -16,14 +16,17 @@
     "Betting",
     "Money"
   ],
-  
-
-    
-  
   "author": "Chjun-chi Chiu, Perham Panbehchi",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Xarczuz/Online_BlackJack/issues"
   },
-  "homepage": "https://github.com/Xarczuz/Online_BlackJack#readme"
+  "homepage": "https://github.com/Xarczuz/Online_BlackJack#readme",
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/socket.io": "^2.1.0",
+    "express": "^4.16.4",
+    "socket.io": "^2.1.1"
+  },
+  "dependencies": {}
 }
