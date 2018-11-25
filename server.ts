@@ -14,7 +14,6 @@ class Server {
     public app: express.Application;
     /**
      * Constructor.
-     *
      * @class Server
      * @constructor
      */
@@ -31,11 +30,10 @@ class Server {
     startServer(){
         this.sendIndex();
         this.app.listen(3000,function(){
+            console.log("Listening on port: 3000");
         });
     }
-
   }
-
 
   let server = new Server();
 
