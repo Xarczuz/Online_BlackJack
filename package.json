@@ -1,0 +1,25 @@
+{
+  "name": "blackjack",
+  "version": "0.0.1",
+  "description": "online BlackJack",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xarczuz/Online_BlackJack.git"
+  },
+  "keywords": [
+    "BlackJack",
+    "Online",
+    "Betting",
+    "Money"
+  ],
+  "author": "Chjun-chi Chiu, Perham Panbehchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xarczuz/Online_BlackJack/issues"
+  },
+  "homepage": "https://github.com/Xarczuz/Online_BlackJack#readme"
+}
