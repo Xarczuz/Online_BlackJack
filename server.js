@@ -17,6 +17,7 @@ var Server = (function () {
     Server.prototype.startServer = function () {
         this.sendIndex();
         this.app.listen(3000, function () {
+            console.log("Listening on port: 3000");
         });
     };
     return Server;
